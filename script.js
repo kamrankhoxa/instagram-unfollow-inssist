@@ -1,3 +1,14 @@
+// ==UserScript==
+// @name         INSTA-UNFOLLOW-KAMRANKHOXA
+// @namespace    http://tampermonkey.net/
+// @version      2024-06-08
+// @description  INSTA-UNFOLLOW-KAMRANKHOXA https://github.com/kamrankhoxa/instagram-unfollow-tampermonkey/
+// @author       You
+// @match        https://www.instagram.com/kamrankhoxa/following/
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=instagram.com
+// @grant        none
+// ==/UserScript==
+
 // Instagram Unfollow Script - Last updated: June 08, 2024
 // If the script stops working, please notify me in the comments, and I will attempt to fix it within the month.
 
@@ -24,7 +35,7 @@
     [...document.querySelectorAll("button")].find(btn => btn.innerText === txt);
 
   console.log("Starting unfollow script...");
-
+  console.log("Click this following tab! it will start working....");
   const startTime = Date.now();
 
   while (Date.now() - startTime < TOTAL_DURATION) {
