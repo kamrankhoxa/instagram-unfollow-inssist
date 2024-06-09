@@ -23,10 +23,10 @@
 (async () => {
   // Customize these variables as needed
   const UNFOLLOW_LIMIT = 5000;
-  const BREAK_DURATION = 0.5 * 60 * 1000; // 1 minute break
-  const TOTAL_DURATION = 0.3 * 60 * 1000; // 3 minutes total duration
-  const MIN_UNFOLLOW_INTERVAL = 3000; // Minimum interval of 5 seconds
-  const MAX_UNFOLLOW_INTERVAL = 7000; // Maximum interval of 15 seconds
+  const BREAK_DURATION = 1 * 60 * 1000; // 1 minute break
+  const TOTAL_DURATION = 2 * 60 * 1000; // 2 minutes total duration
+  const MIN_UNFOLLOW_INTERVAL = 5000; // Minimum interval of 5 seconds
+  const MAX_UNFOLLOW_INTERVAL = 7000; // Maximum interval of 7 seconds
 
   const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
