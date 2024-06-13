@@ -1,6 +1,5 @@
 # Instagram Unfollow Script
 
-This script automates the process of unfollowing users on Instagram using Google Chrome. It is designed to be used with Tampermonkey.
 INSSIST Extension is require for New Script And Recommended! ([Extension](https://chromewebstore.google.com/detail/inssist-web-client-for-in/bcocdbombenodlegijagbhdjbifpiijp))
 
 ## Features
@@ -17,30 +16,20 @@ INSSIST Extension is require for New Script And Recommended! ([Extension](https:
 2. **Navigate to Your Following List**:
    Click on "FOLLOWING" on your Instagram profile to open the list of accounts you are following.
 
-3. **Install Tampermonkey**:
-   If you haven't already, install the [Tampermonkey extension](https://www.tampermonkey.net/) for Google Chrome.
+3. **Install INSSIT**:
+   If you haven't already, install the ([Extension](https://chromewebstore.google.com/detail/inssist-web-client-for-in/bcocdbombenodlegijagbhdjbifpiijp)) for Google Chrome.
 
-4. **Create a New Script in Tampermonkey**:
-   - Click on the Tampermonkey icon in your Chrome toolbar.
-   - Select "Create a new script".
+4. **Inspect and Open Console**:
+   - Click on the following buton in your Chrome.
+   - Select "Insepct & Open Console".
 
 5. **Copy and Paste the Script**:
-   Copy the script from the instagram-unfollow `script.js` file in this repository and paste it into the Tampermonkey script editor.
+   Copy the script from the instagram-unfollow `INSSIST.......js` file in this repository and paste it into the Console script.
 
 6. **Run the Script**:
-   - Save the script in Tampermonkey.
+   - Press Enter.
    - Make sure the Instagram tab remains focused and active (the script will run if the tab is navigated away from, minimized, or unfocused).
    - Open a new Chrome window or push the tab to the side to let the script run in the background.
-
-## Customization
-
-You can customize the following variables in the script to suit your needs:
-
-- `UNFOLLOW_LIMIT`: Maximum number of users to unfollow per cycle.
-- `BREAK_DURATION`: Duration of the break between cycles (in milliseconds).
-- `TOTAL_DURATION`: Total duration for which the script will run (in milliseconds).
-- `MIN_UNFOLLOW_INTERVAL`: Minimum interval between unfollow actions (in milliseconds).
-- `MAX_UNFOLLOW_INTERVAL`: Maximum interval between unfollow actions (in milliseconds).
 
 ## Note
 
