@@ -1,6 +1,7 @@
 # Instagram Unfollow Script
 
 This script automates the process of unfollowing users on Instagram using Google Chrome. It is designed to be used with Tampermonkey.
+INSSIST Extension is require for New Script And Recommended! ([Extension](https://chromewebstore.google.com/detail/inssist-web-client-for-in/bcocdbombenodlegijagbhdjbifpiijp))
 
 ## Features
 
