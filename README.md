@@ -1,6 +1,6 @@
 # Instagram Unfollow Script
 
-INSSIST Extension is require for New Script And Recommended! ([Extension](https://chromewebstore.google.com/detail/inssist-web-client-for-in/bcocdbombenodlegijagbhdjbifpiijp))
+TamperMonkey Extension is require for New Script And Recommended! [Extension](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 Live test: ([Video Demo](https://vimeo.com/957655986/6291a75896?share=copy))
 
 ## Features
@@ -17,15 +17,15 @@ Live test: ([Video Demo](https://vimeo.com/957655986/6291a75896?share=copy))
 2. **Navigate to Your Following List**:
    Click on "FOLLOWING" on your Instagram profile to open the list of accounts you are following.
 
-3. **Install INSSIT**:
-   If you haven't already, install the ([Extension](https://chromewebstore.google.com/detail/inssist-web-client-for-in/bcocdbombenodlegijagbhdjbifpiijp)) for Google Chrome.
+3. **Install TamperMonkey**:
+   If you haven't already, install the [Extension](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) for Google Chrome.
 
-4. **Inspect and Open Console**:
-   - Click on the following buton in your Chrome.
-   - Select "Insepct & Open Console".
+4. **Add new script and enable**:
+   - Click on the tampermoneky buton in your Chrome.
+   - Select "save new script".
 
 5. **Copy and Paste the Script**:
-   Copy the script from the instagram-unfollow `INSSIST.......js` file in this repository and paste it into the Console script.
+   Copy the script from the instagram-unfollow `script.......js` file in this repository and paste it into the new script.
 
 6. **Run the Script**:
    - Press Enter.
